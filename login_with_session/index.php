@@ -1,3 +1,7 @@
+
+/* Designed And Developed by Ankur Varma @ sashivarma58@gmail.com*/
+
+
 <!DOCTYPE html>
 <?php
    ob_start();
@@ -26,8 +30,10 @@
                   $_SESSION['username'] = 'admin';
                   
                   echo 'login successful';
+		       /* further action to be added*/
                }else {
                   $msg = 'invalid details';
+		       /* login details are wrong*/
                }
             }
          ?>
